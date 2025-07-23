@@ -5,7 +5,7 @@
                   <li class="menu-item active">
                     <a href="#" class="menu-link ">
                       <i class="menu-icon tf-icons ti ti-smart-home"></i>
-                      <div data-i18n="Dashboards">Dashboards</div>
+                      <div>Dashboards</div>
                     </a>
                   </li>
 
