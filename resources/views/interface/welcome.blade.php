@@ -1,851 +1,1149 @@
-@extends('interface.app')
+@extends('interface.layouts.app')
 @section('content')
- <!-- Content -->
-
-            <div class="container-xxl flex-grow-1 container-p-y">
-              <div class="row g-6">
-                <!-- Website Analytics -->
-                <div class="col-lg-6">
-                  <div
-                    class="swiper-container swiper-container-horizontal swiper swiper-card-advance-bg"
-                    id="swiper-with-pagination-cards">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide">
-                        <div class="row">
-                          <div class="col-12">
-                            <h5 class="text-white mb-0">Website Analytics</h5>
-                            <small>Total 28.5% Conversion Rate</small>
-                          </div>
-                          <div class="row">
-                            <div class="col-lg-7 col-md-9 col-12 order-2 order-md-1 pt-md-9">
-                              <h6 class="text-white mt-0 mt-md-3 mb-4">Traffic</h6>
-                              <div class="row">
-                                <div class="col-6">
-                                  <ul class="list-unstyled mb-0">
-                                    <li class="d-flex mb-4 align-items-center">
-                                      <p class="mb-0 fw-medium me-2 website-analytics-text-bg">28%</p>
-                                      <p class="mb-0">Sessions</p>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                      <p class="mb-0 fw-medium me-2 website-analytics-text-bg">1.2k</p>
-                                      <p class="mb-0">Leads</p>
-                                    </li>
-                                  </ul>
-                                </div>
-                                <div class="col-6">
-                                  <ul class="list-unstyled mb-0">
-                                    <li class="d-flex mb-4 align-items-center">
-                                      <p class="mb-0 fw-medium me-2 website-analytics-text-bg">3.1k</p>
-                                      <p class="mb-0">Page Views</p>
-                                    </li>
-                                    <li class="d-flex align-items-center">
-                                      <p class="mb-0 fw-medium me-2 website-analytics-text-bg">12%</p>
-                                      <p class="mb-0">Conversions</p>
-                                    </li>
-                                  </ul>
-                                </div>
-                              </div>
-                            </div>
-                            <div class="col-lg-5 col-md-3 col-12 order-1 order-md-2 my-4 my-md-0 text-center">
-                              <img
-                                src="{{asset('assets_admin/img/illustrations/card-website-analytics-1.png')}}"
-                                alt="Website Analytics"
-                                height="150"
-                                class="card-website-analytics-img" />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="row">
-                          <div class="col-12">
-                            <h5 class="text-white mb-0">Website Analytics</h5>
-                            <small>Total 28.5% Conversion Rate</small>
-                          </div>
-                          <div class="col-lg-7 col-md-9 col-12 order-2 order-md-1 pt-md-9">
-                            <h6 class="text-white mt-0 mt-md-3 mb-4">Spending</h6>
-                            <div class="row">
-                              <div class="col-6">
-                                <ul class="list-unstyled mb-0">
-                                  <li class="d-flex mb-4 align-items-center">
-                                    <p class="mb-0 fw-medium me-2 website-analytics-text-bg">12h</p>
-                                    <p class="mb-0">Spend</p>
-                                  </li>
-                                  <li class="d-flex align-items-center">
-                                    <p class="mb-0 fw-medium me-2 website-analytics-text-bg">127</p>
-                                    <p class="mb-0">Order</p>
-                                  </li>
-                                </ul>
-                              </div>
-                              <div class="col-6">
-                                <ul class="list-unstyled mb-0">
-                                  <li class="d-flex mb-4 align-items-center">
-                                    <p class="mb-0 fw-medium me-2 website-analytics-text-bg">18</p>
-                                    <p class="mb-0">Order Size</p>
-                                  </li>
-                                  <li class="d-flex align-items-center">
-                                    <p class="mb-0 fw-medium me-2 website-analytics-text-bg">2.3k</p>
-                                    <p class="mb-0">Items</p>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-5 col-md-3 col-12 order-1 order-md-2 my-4 my-md-0 text-center">
-                            <img
-                              src="{{asset('assets_admin/img/illustrations/card-website-analytics-2.png')}}"
-                              alt="Website Analytics"
-                              height="150"
-                              class="card-website-analytics-img" />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="swiper-slide">
-                        <div class="row">
-                          <div class="col-12">
-                            <h5 class="text-white mb-0">Website Analytics</h5>
-                            <small>Total 28.5% Conversion Rate</small>
-                          </div>
-                          <div class="col-lg-7 col-md-9 col-12 order-2 order-md-1 pt-md-9">
-                            <h6 class="text-white mt-0 mt-md-3 mb-4">Revenue Sources</h6>
-                            <div class="row">
-                              <div class="col-6">
-                                <ul class="list-unstyled mb-0">
-                                  <li class="d-flex mb-4 align-items-center">
-                                    <p class="mb-0 fw-medium me-2 website-analytics-text-bg">268</p>
-                                    <p class="mb-0">Direct</p>
-                                  </li>
-                                  <li class="d-flex align-items-center">
-                                    <p class="mb-0 fw-medium me-2 website-analytics-text-bg">62</p>
-                                    <p class="mb-0">Referral</p>
-                                  </li>
-                                </ul>
-                              </div>
-                              <div class="col-6">
-                                <ul class="list-unstyled mb-0">
-                                  <li class="d-flex mb-4 align-items-center">
-                                    <p class="mb-0 fw-medium me-2 website-analytics-text-bg">890</p>
-                                    <p class="mb-0">Organic</p>
-                                  </li>
-                                  <li class="d-flex align-items-center">
-                                    <p class="mb-0 fw-medium me-2 website-analytics-text-bg">1.2k</p>
-                                    <p class="mb-0">Campaign</p>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="col-lg-5 col-md-3 col-12 order-1 order-md-2 my-4 my-md-0 text-center">
-                            <img
-                              src="{{asset('assets_admin/img/illustrations/card-website-analytics-3.png')}}"
-                              alt="Website Analytics"
-                              height="150"
-                              class="card-website-analytics-img" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                  </div>
-                </div>
-                <!--/ Website Analytics -->
-
-                <!-- Average Daily Sales -->
-                <div class="col-xl-3 col-sm-6">
-                  <div class="card h-100">
-                    <div class="card-header pb-0">
-                      <h5 class="mb-3 card-title">Average Daily Sales</h5>
-                      <p class="mb-0 text-body">Total Sales This Month</p>
-                      <h4 class="mb-0">$28,450</h4>
-                    </div>
-                    <div class="card-body px-0">
-                      <div id="averageDailySales"></div>
-                    </div>
-                  </div>
-                </div>
-                <!--/ Average Daily Sales -->
-
-                <!-- Sales Overview -->
-                <div class="col-xl-3 col-sm-6">
-                  <div class="card h-100">
-                    <div class="card-header">
-                      <div class="d-flex justify-content-between">
-                        <p class="mb-0 text-body">Sales Overview</p>
-                        <p class="card-text fw-medium text-success">+18.2%</p>
-                      </div>
-                      <h4 class="card-title mb-1">$42.5k</h4>
-                    </div>
-                    <div class="card-body">
-                      <div class="row">
-                        <div class="col-4">
-                          <div class="d-flex gap-2 align-items-center mb-2">
-                            <span class="badge bg-label-info p-1 rounded"
-                              ><i class="ti ti-shopping-cart ti-sm"></i
-                            ></span>
-                            <p class="mb-0">Order</p>
-                          </div>
-                          <h5 class="mb-0 pt-1">62.2%</h5>
-                          <small class="text-muted">6,440</small>
-                        </div>
-                        <div class="col-4">
-                          <div class="divider divider-vertical">
-                            <div class="divider-text">
-                              <span class="badge-divider-bg bg-label-secondary">VS</span>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-4 text-end">
-                          <div class="d-flex gap-2 justify-content-end align-items-center mb-2">
-                            <p class="mb-0">Visits</p>
-                            <span class="badge bg-label-primary p-1 rounded"><i class="ti ti-link ti-sm"></i></span>
-                          </div>
-                          <h5 class="mb-0 pt-1">25.5%</h5>
-                          <small class="text-muted">12,749</small>
-                        </div>
-                      </div>
-                      <div class="d-flex align-items-center mt-6">
-                        <div class="progress w-100" style="height: 10px">
-                          <div
-                            class="progress-bar bg-info"
-                            style="width: 70%"
-                            role="progressbar"
-                            aria-valuenow="70"
-                            aria-valuemin="0"
-                            aria-valuemax="100"></div>
-                          <div
-                            class="progress-bar bg-primary"
-                            role="progressbar"
-                            style="width: 30%"
-                            aria-valuenow="30"
-                            aria-valuemin="0"
-                            aria-valuemax="100"></div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--/ Sales Overview -->
-
-                <!-- Earning Reports -->
-                <div class="col-lg-6">
-                  <div class="card h-100">
-                    <div class="card-header pb-0 d-flex justify-content-between">
-                      <div class="card-title mb-0">
-                        <h5 class="mb-1">Earning Reports</h5>
-                        <p class="card-subtitle">Weekly Earnings Overview</p>
-                      </div>
-                      <div class="dropdown">
-                        <button
-                          class="btn btn-text-secondary rounded-pill text-muted border-0 p-2 me-n1"
-                          type="button"
-                          id="earningReportsId"
-                          data-bs-toggle="dropdown"
-                          aria-haspopup="true"
-                          aria-expanded="false">
-                          <i class="ti ti-dots-vertical ti-md text-muted"></i>
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="earningReportsId">
-                          <a class="dropdown-item" href="javascript:void(0);">View More</a>
-                          <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <div class="row align-items-center g-md-8">
-                        <div class="col-12 col-md-5 d-flex flex-column">
-                          <div class="d-flex gap-2 align-items-center mb-3 flex-wrap">
-                            <h2 class="mb-0">$468</h2>
-                            <div class="badge rounded bg-label-success">+4.2%</div>
-                          </div>
-                          <small class="text-body">You informed of this week compared to last week</small>
-                        </div>
-                        <div class="col-12 col-md-7 ps-xl-8">
-                          <div id="weeklyEarningReports"></div>
-                        </div>
-                      </div>
-                      <div class="border rounded p-5 mt-5">
-                        <div class="row gap-4 gap-sm-0">
-                          <div class="col-12 col-sm-4">
-                            <div class="d-flex gap-2 align-items-center">
-                              <div class="badge rounded bg-label-primary p-1">
-                                <i class="ti ti-currency-dollar ti-sm"></i>
-                              </div>
-                              <h6 class="mb-0 fw-normal">Earnings</h6>
-                            </div>
-                            <h4 class="my-2">$545.69</h4>
-                            <div class="progress w-75" style="height: 4px">
-                              <div
-                                class="progress-bar"
-                                role="progressbar"
-                                style="width: 65%"
-                                aria-valuenow="65"
-                                aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                            </div>
-                          </div>
-                          <div class="col-12 col-sm-4">
-                            <div class="d-flex gap-2 align-items-center">
-                              <div class="badge rounded bg-label-info p-1"><i class="ti ti-chart-pie-2 ti-sm"></i></div>
-                              <h6 class="mb-0 fw-normal">Profit</h6>
-                            </div>
-                            <h4 class="my-2">$256.34</h4>
-                            <div class="progress w-75" style="height: 4px">
-                              <div
-                                class="progress-bar bg-info"
-                                role="progressbar"
-                                style="width: 50%"
-                                aria-valuenow="50"
-                                aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                            </div>
-                          </div>
-                          <div class="col-12 col-sm-4">
-                            <div class="d-flex gap-2 align-items-center">
-                              <div class="badge rounded bg-label-danger p-1">
-                                <i class="ti ti-brand-paypal ti-sm"></i>
-                              </div>
-                              <h6 class="mb-0 fw-normal">Expense</h6>
-                            </div>
-                            <h4 class="my-2">$74.19</h4>
-                            <div class="progress w-75" style="height: 4px">
-                              <div
-                                class="progress-bar bg-danger"
-                                role="progressbar"
-                                style="width: 65%"
-                                aria-valuenow="65"
-                                aria-valuemin="0"
-                                aria-valuemax="100"></div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--/ Earning Reports -->
-
-                <!-- Support Tracker -->
-                <div class="col-md-6">
-                  <div class="card h-100">
-                    <div class="card-header d-flex justify-content-between">
-                      <div class="card-title mb-0">
-                        <h5 class="mb-1">Support Tracker</h5>
-                        <p class="card-subtitle">Last 7 Days</p>
-                      </div>
-                      <div class="dropdown">
-                        <button
-                          class="btn btn-text-secondary rounded-pill text-muted border-0 p-2 me-n1"
-                          type="button"
-                          id="supportTrackerMenu"
-                          data-bs-toggle="dropdown"
-                          aria-haspopup="true"
-                          aria-expanded="false">
-                          <i class="ti ti-dots-vertical ti-md text-muted"></i>
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="supportTrackerMenu">
-                          <a class="dropdown-item" href="javascript:void(0);">View More</a>
-                          <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-body row">
-                      <div class="col-12 col-sm-4 col-md-12 col-lg-4">
-                        <div class="mt-lg-4 mt-lg-2 mb-lg-6 mb-2">
-                          <h2 class="mb-0">164</h2>
-                          <p class="mb-0">Total Tickets</p>
-                        </div>
-                        <ul class="p-0 m-0">
-                          <li class="d-flex gap-4 align-items-center mb-lg-3 pb-1">
-                            <div class="badge rounded bg-label-primary p-1_5"><i class="ti ti-ticket ti-md"></i></div>
-                            <div>
-                              <h6 class="mb-0 text-nowrap">New Tickets</h6>
-                              <small class="text-muted">142</small>
-                            </div>
-                          </li>
-                          <li class="d-flex gap-4 align-items-center mb-lg-3 pb-1">
-                            <div class="badge rounded bg-label-info p-1_5">
-                              <i class="ti ti-circle-check ti-md"></i>
-                            </div>
-                            <div>
-                              <h6 class="mb-0 text-nowrap">Open Tickets</h6>
-                              <small class="text-muted">28</small>
-                            </div>
-                          </li>
-                          <li class="d-flex gap-4 align-items-center pb-1">
-                            <div class="badge rounded bg-label-warning p-1_5"><i class="ti ti-clock ti-md"></i></div>
-                            <div>
-                              <h6 class="mb-0 text-nowrap">Response Time</h6>
-                              <small class="text-muted">1 Day</small>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="col-12 col-sm-8 col-md-12 col-lg-8">
-                        <div id="supportTracker"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--/ Support Tracker -->
-
-                <!-- Sales By Country -->
-                <div class="col-xxl-4 col-md-6">
-                  <div class="card h-100">
-                    <div class="card-header d-flex justify-content-between">
-                      <div class="card-title mb-0">
-                        <h5 class="mb-1">Sales by Countries</h5>
-                        <p class="card-subtitle">Monthly Sales Overview</p>
-                      </div>
-                      <div class="dropdown">
-                        <button
-                          class="btn btn-text-secondary rounded-pill text-muted border-0 p-2 me-n1"
-                          type="button"
-                          id="salesByCountry"
-                          data-bs-toggle="dropdown"
-                          aria-haspopup="true"
-                          aria-expanded="false">
-                          <i class="ti ti-dots-vertical ti-md text-muted"></i>
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="salesByCountry">
-                          <a class="dropdown-item" href="javascript:void(0);">Download</a>
-                          <a class="dropdown-item" href="javascript:void(0);">Refresh</a>
-                          <a class="dropdown-item" href="javascript:void(0);">Share</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <ul class="p-0 m-0">
-                        <li class="d-flex align-items-center mb-4">
-                          <div class="avatar flex-shrink-0 me-4">
-                            <i class="fis fi fi-us rounded-circle fs-2"></i>
-                          </div>
-                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
-                            <div class="me-2">
-                              <div class="d-flex align-items-center">
-                                <h6 class="mb-0 me-1">$8,567k</h6>
-                              </div>
-                              <small class="text-body">United states</small>
-                            </div>
-                            <div class="user-progress">
-                              <p class="text-success fw-medium mb-0 d-flex align-items-center gap-1">
-                                <i class="ti ti-chevron-up"></i>
-                                25.8%
-                              </p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="d-flex align-items-center mb-4">
-                          <div class="avatar flex-shrink-0 me-4">
-                            <i class="fis fi fi-br rounded-circle fs-2"></i>
-                          </div>
-                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
-                            <div class="me-2">
-                              <div class="d-flex align-items-center">
-                                <h6 class="mb-0 me-1">$2,415k</h6>
-                              </div>
-                              <small class="text-body">Brazil</small>
-                            </div>
-                            <div class="user-progress">
-                              <p class="text-danger fw-medium mb-0 d-flex align-items-center gap-1">
-                                <i class="ti ti-chevron-down"></i>
-                                6.2%
-                              </p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="d-flex align-items-center mb-4">
-                          <div class="avatar flex-shrink-0 me-4">
-                            <i class="fis fi fi-in rounded-circle fs-2"></i>
-                          </div>
-                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
-                            <div class="me-2">
-                              <div class="d-flex align-items-center">
-                                <h6 class="mb-0 me-1">$865k</h6>
-                              </div>
-                              <small class="text-body">India</small>
-                            </div>
-                            <div class="user-progress">
-                              <p class="text-success fw-medium mb-0 d-flex align-items-center gap-1">
-                                <i class="ti ti-chevron-up"></i>
-                                12.4%
-                              </p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="d-flex align-items-center mb-4">
-                          <div class="avatar flex-shrink-0 me-4">
-                            <i class="fis fi fi-au rounded-circle fs-2"></i>
-                          </div>
-                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
-                            <div class="me-2">
-                              <div class="d-flex align-items-center">
-                                <h6 class="mb-0 me-1">$745k</h6>
-                              </div>
-                              <small class="text-body">Australia</small>
-                            </div>
-                            <div class="user-progress">
-                              <p class="text-danger fw-medium mb-0 d-flex align-items-center gap-1">
-                                <i class="ti ti-chevron-down"></i>
-                                11.9%
-                              </p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="d-flex align-items-center mb-4">
-                          <div class="avatar flex-shrink-0 me-4">
-                            <i class="fis fi fi-fr rounded-circle fs-2"></i>
-                          </div>
-                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
-                            <div class="me-2">
-                              <div class="d-flex align-items-center">
-                                <h6 class="mb-0 me-1">$45</h6>
-                              </div>
-                              <small class="text-body">France</small>
-                            </div>
-                            <div class="user-progress">
-                              <p class="text-success fw-medium mb-0 d-flex align-items-center gap-1">
-                                <i class="ti ti-chevron-up"></i>
-                                16.2%
-                              </p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="d-flex align-items-center">
-                          <div class="avatar flex-shrink-0 me-4">
-                            <i class="fis fi fi-cn rounded-circle fs-2"></i>
-                          </div>
-                          <div class="d-flex w-100 flex-wrap align-items-center justify-content-between gap-2">
-                            <div class="me-2">
-                              <div class="d-flex align-items-center">
-                                <h6 class="mb-0 me-1">$12k</h6>
-                              </div>
-                              <small class="text-body">China</small>
-                            </div>
-                            <div class="user-progress">
-                              <p class="text-success fw-medium mb-0 d-flex align-items-center gap-1">
-                                <i class="ti ti-chevron-up"></i>
-                                14.8%
-                              </p>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--/ Sales By Country -->
-
-                <!-- Total Earning -->
-                <div class="col-xxl-4 col-md-6">
-                  <div class="card h-100">
-                    <div class="card-header">
-                      <div class="d-flex justify-content-between align-items-center">
-                        <h5 class="mb-0 card-title">Total Earning</h5>
-                        <div class="dropdown">
-                          <button
-                            class="btn btn-text-secondary rounded-pill text-muted border-0 p-2 me-n1"
-                            type="button"
-                            id="totalEarning"
-                            data-bs-toggle="dropdown"
-                            aria-haspopup="true"
-                            aria-expanded="false">
-                            <i class="ti ti-dots-vertical ti-md text-muted"></i>
-                          </button>
-                          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="totalEarning">
-                            <a class="dropdown-item" href="javascript:void(0);">View More</a>
-                            <a class="dropdown-item" href="javascript:void(0);">Delete</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="d-flex align-items-center">
-                        <h2 class="mb-0 me-2">87%</h2>
-                        <i class="ti ti-chevron-up text-success me-1"></i>
-                        <h6 class="text-success mb-0">25.8%</h6>
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <div id="totalEarningChart"></div>
-                      <div class="d-flex align-items-start my-4">
-                        <div class="badge rounded bg-label-primary p-2 me-4 rounded">
-                          <i class="ti ti-brand-paypal ti-md"></i>
-                        </div>
-                        <div class="d-flex justify-content-between w-100 gap-2 align-items-center">
-                          <div class="me-2">
-                            <h6 class="mb-0">Total Revenue</h6>
-                            <small class="text-body">Client Payment</small>
-                          </div>
-                          <h6 class="mb-0 text-success">+$126</h6>
-                        </div>
-                      </div>
-                      <div class="d-flex align-items-start">
-                        <div class="badge rounded bg-label-secondary p-2 me-4 rounded">
-                          <i class="ti ti-currency-dollar ti-md"></i>
-                        </div>
-                        <div class="d-flex justify-content-between w-100 gap-2 align-items-center">
-                          <div class="me-2">
-                            <h6 class="mb-0">Total Sales</h6>
-                            <small class="text-body">Refund</small>
-                          </div>
-                          <h6 class="mb-0 text-success">+$98</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!--/ Total Earning -->
-
-                <!-- Monthly Campaign State -->
-                <div class="col-xxl-4 col-md-6">
-                  <div class="card h-100">
-                    <div class="card-header d-flex justify-content-between">
-                      <div class="card-title mb-0">
-                        <h5 class="mb-1">Monthly Campaign State</h5>
-                        <p class="card-subtitle">8.52k Social Visiters</p>
-                      </div>
-                      <div class="dropdown">
-                        <button
-                          class="btn btn-text-secondary rounded-pill text-muted border-0 p-2 me-n1"
-                          type="button"
-                          id="MonthlyCampaign"
-                          data-bs-toggle="dropdown"
-                          aria-haspopup="true"
-                          aria-expanded="false">
-                          <i class="ti ti-dots-vertical ti-md text-muted"></i>
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="MonthlyCampaign">
-                          <a class="dropdown-item" href="javascript:void(0);">Refresh</a>
-                          <a class="dropdown-item" href="javascript:void(0);">Download</a>
-                          <a class="dropdown-item" href="javascript:void(0);">View All</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <ul class="p-0 m-0">
-                        <li class="mb-6 d-flex justify-content-between align-items-center">
-                          <div class="badge bg-label-success rounded p-1_5"><i class="ti ti-mail ti-md"></i></div>
-                          <div class="d-flex justify-content-between w-100 flex-wrap">
-                            <h6 class="mb-0 ms-4">Emails</h6>
-                            <div class="d-flex">
-                              <p class="mb-0">12,346</p>
-                              <p class="ms-4 text-success mb-0">0.3%</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="mb-6 d-flex justify-content-between align-items-center">
-                          <div class="badge bg-label-info rounded p-1_5"><i class="ti ti-link ti-md"></i></div>
-                          <div class="d-flex justify-content-between w-100 flex-wrap">
-                            <h6 class="mb-0 ms-4">Opened</h6>
-                            <div class="d-flex">
-                              <p class="mb-0">8,734</p>
-                              <p class="ms-4 text-success mb-0">2.1%</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="mb-6 d-flex justify-content-between align-items-center">
-                          <div class="badge bg-label-warning rounded p-1_5"><i class="ti ti-mouse ti-md"></i></div>
-                          <div class="d-flex justify-content-between w-100 flex-wrap">
-                            <h6 class="mb-0 ms-4">Clicked</h6>
-                            <div class="d-flex">
-                              <p class="mb-0">967</p>
-                              <p class="ms-4 text-danger mb-0">1.4%</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="mb-6 d-flex justify-content-between align-items-center">
-                          <div class="badge bg-label-primary rounded p-1_5"><i class="ti ti-users ti-md"></i></div>
-                          <div class="d-flex justify-content-between w-100 flex-wrap">
-                            <h6 class="mb-0 ms-4">Subscribe</h6>
-                            <div class="d-flex">
-                              <p class="mb-0">345</p>
-                              <p class="ms-4 text-success mb-0">8.5%</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="mb-6 d-flex justify-content-between align-items-center">
-                          <div class="badge bg-label-secondary rounded p-1_5">
-                            <i class="ti ti-alert-triangle ti-md"></i>
-                          </div>
-                          <div class="d-flex justify-content-between w-100 flex-wrap">
-                            <h6 class="mb-0 ms-4">Complaints</h6>
-                            <div class="d-flex">
-                              <p class="mb-0">10</p>
-                              <p class="ms-4 text-danger mb-0">1.5%</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="d-flex justify-content-between align-items-center">
-                          <div class="badge bg-label-danger rounded p-1_5"><i class="ti ti-ban ti-md"></i></div>
-                          <div class="d-flex justify-content-between w-100 flex-wrap">
-                            <h6 class="mb-0 ms-4">Unsubscribe</h6>
-                            <div class="d-flex">
-                              <p class="mb-0">86</p>
-                              <p class="ms-4 text-success mb-0">0.8%</p>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--/ Monthly Campaign State -->
-
-                <!-- Source Visit -->
-                <div class="col-xxl-4 col-xl-6 col-lg-12">
-                  <div class="card h-100">
-                    <div class="card-header d-flex justify-content-between">
-                      <div class="card-title mb-0">
-                        <h5 class="mb-1">Source Visits</h5>
-                        <p class="card-subtitle">38.4k Visitors</p>
-                      </div>
-                      <div class="dropdown">
-                        <button
-                          class="btn btn-text-secondary rounded-pill text-muted border-0 p-2 me-n1"
-                          type="button"
-                          id="sourceVisits"
-                          data-bs-toggle="dropdown"
-                          aria-haspopup="true"
-                          aria-expanded="false">
-                          <i class="ti ti-dots-vertical ti-md text-muted"></i>
-                        </button>
-                        <div class="dropdown-menu dropdown-menu-end" aria-labelledby="sourceVisits">
-                          <a class="dropdown-item" href="javascript:void(0);">Refresh</a>
-                          <a class="dropdown-item" href="javascript:void(0);">Download</a>
-                          <a class="dropdown-item" href="javascript:void(0);">View All</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="card-body">
-                      <ul class="list-unstyled mb-0">
-                        <li class="mb-6">
-                          <div class="d-flex align-items-center">
-                            <div class="badge bg-label-secondary text-body p-2 me-4 rounded">
-                              <i class="ti ti-shadow ti-md"></i>
-                            </div>
-                            <div class="d-flex justify-content-between w-100 flex-wrap gap-2">
-                              <div class="me-2">
-                                <h6 class="mb-0">Direct Source</h6>
-                                <small class="text-body">Direct link click</small>
-                              </div>
-                              <div class="d-flex align-items-center">
-                                <p class="mb-0">1.2k</p>
-                                <div class="ms-4 badge bg-label-success">+4.2%</div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="mb-6">
-                          <div class="d-flex align-items-center">
-                            <div class="badge bg-label-secondary text-body p-2 me-4 rounded">
-                              <i class="ti ti-globe ti-md"></i>
-                            </div>
-                            <div class="d-flex justify-content-between w-100 flex-wrap gap-2">
-                              <div class="me-2">
-                                <h6 class="mb-0">Social Network</h6>
-                                <small class="text-body">Social Channels</small>
-                              </div>
-                              <div class="d-flex align-items-center">
-                                <p class="mb-0">31.5k</p>
-                                <div class="ms-4 badge bg-label-success">+8.2%</div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="mb-6">
-                          <div class="d-flex align-items-center">
-                            <div class="badge bg-label-secondary text-body p-2 me-4 rounded">
-                              <i class="ti ti-mail ti-md"></i>
-                            </div>
-                            <div class="d-flex justify-content-between w-100 flex-wrap gap-2">
-                              <div class="me-2">
-                                <h6 class="mb-0">Email Newsletter</h6>
-                                <small class="text-body">Mail Campaigns</small>
-                              </div>
-                              <div class="d-flex align-items-center">
-                                <p class="mb-0">893</p>
-                                <div class="ms-4 badge bg-label-success">+2.4%</div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="mb-6">
-                          <div class="d-flex align-items-center">
-                            <div class="badge bg-label-secondary text-body p-2 me-4 rounded">
-                              <i class="ti ti-external-link ti-md"></i>
-                            </div>
-                            <div class="d-flex justify-content-between w-100 flex-wrap gap-2">
-                              <div class="me-2">
-                                <h6 class="mb-0">Referrals</h6>
-                                <small class="text-body">Impact Radius Visits</small>
-                              </div>
-                              <div class="d-flex align-items-center">
-                                <p class="mb-0">342</p>
-                                <div class="ms-4 badge bg-label-danger">-0.4%</div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="mb-6">
-                          <div class="d-flex align-items-center">
-                            <div class="badge bg-label-secondary text-body p-2 me-4 rounded">
-                              <i class="ti ti-ad ti-md"></i>
-                            </div>
-                            <div class="d-flex justify-content-between w-100 flex-wrap gap-2">
-                              <div class="me-2">
-                                <h6 class="mb-0">ADVT</h6>
-                                <small class="text-body">Google ADVT</small>
-                              </div>
-                              <div class="d-flex align-items-center">
-                                <p class="mb-0">2.15k</p>
-                                <div class="ms-4 badge bg-label-success">+9.1%</div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="d-flex align-items-center">
-                            <div class="badge bg-label-secondary text-body p-2 me-4 rounded">
-                              <i class="ti ti-star ti-md"></i>
-                            </div>
-                            <div class="d-flex justify-content-between w-100 flex-wrap gap-2">
-                              <div class="me-2">
-                                <h6 class="mb-0">Other</h6>
-                                <small class="text-body">Many Sources</small>
-                              </div>
-                              <div class="d-flex align-items-center">
-                                <p class="mb-0">12.5k</p>
-                                <div class="ms-4 badge bg-label-success">+6.2%</div>
-                              </div>
-                            </div>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <!--/ Source Visit -->
-
-                <!-- Projects table -->
-                <div class="col-xxl-8">
-                  <div class="card">
-                    <div class="card-datatable table-responsive">
-                      <table class="datatables-projects table table-sm">
-                        <thead>
-                          <tr>
-                            <th></th>
-                            <th></th>
-                            <th>Project</th>
-                            <th>Leader</th>
-                            <th>Team</th>
-                            <th class="w-px-200">Progress</th>
-                            <th>Action</th>
-                          </tr>
-                        </thead>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-                <!--/ Projects table -->
+    <div data-bs-spy="scroll" class="scrollspy-example">
+      <!-- Hero: Start -->
+      <section id="hero-animation">
+        <div id="landingHero" class="section-py landing-hero position-relative">
+          <img
+            src="{{ asset('assets_admin/img/front-pages/backgrounds/hero-bg.png')}}"
+            alt="hero background"
+            class="position-absolute top-0 start-50 translate-middle-x object-fit-cover w-100 h-100"
+            data-speed="1" />
+          <div class="container">
+            <div class="hero-text-box text-center position-relative">
+              <h1 class="text-primary hero-title display-6 fw-extrabold">
+                One dashboard to manage all your businesses
+              </h1>
+              <h2 class="hero-sub-title h6 mb-6">
+                Production-ready & easy to use Admin Template<br class="d-none d-lg-block" />
+                for Reliability and Customizability.
+              </h2>
+              <div class="landing-hero-btn d-inline-block position-relative">
+                <span class="hero-btn-item position-absolute d-none d-md-flex fw-medium"
+                  >Join community
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/icons/Join-community-arrow.png')}}"
+                    alt="Join community arrow"
+                    class="scaleX-n1-rtl"
+                /></span>
+                <a href="#landingPricing" class="btn btn-primary btn-lg">Get early access</a>
               </div>
             </div>
-            <!--/ Content -->
+            <div id="heroDashboardAnimation" class="hero-animation-img">
+              <a href="../vertical-menu-template/app-ecommerce-dashboard.html" target="_blank">
+                <div id="heroAnimationImg" class="position-relative hero-dashboard-img">
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/landing-page/hero-dashboard-light.png')}}"
+                    alt="hero dashboard"
+                    class="animation-img"
+                    data-app-light-img="front-pages/landing-page/hero-dashboard-light.png"
+                    data-app-dark-img="front-pages/landing-page/hero-dashboard-dark.png" />
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/landing-page/hero-elements-light.png')}}"
+                    alt="hero elements"
+                    class="position-absolute hero-elements-img animation-img top-0 start-0"
+                    data-app-light-img="front-pages/landing-page/hero-elements-light.png"
+                    data-app-dark-img="front-pages/landing-page/hero-elements-dark.png" />
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="landing-hero-blank"></div>
+      </section>
+      <!-- Hero: End -->
+
+      <!-- Useful features: Start -->
+      <section id="landingFeatures" class="section-py landing-features">
+        <div class="container">
+          <div class="text-center mb-4">
+            <span class="badge bg-label-primary">Useful Features</span>
+          </div>
+          <h4 class="text-center mb-1">
+            <span class="position-relative fw-extrabold z-1"
+              >Everything you need
+              <img
+                src="{{ asset('assets_admin/img/front-pages/icons/section-title-icon.png')}}"
+                alt="laptop charging"
+                class="section-title-img position-absolute object-fit-contain bottom-0 z-n1" />
+            </span>
+            to start your next project
+          </h4>
+          <p class="text-center mb-12">
+            Not just a set of tools, the package includes ready-to-deploy conceptual application.
+          </p>
+          <div class="features-icon-wrapper row gx-0 gy-6 g-sm-12">
+            <div class="col-lg-4 col-sm-6 text-center features-icon-box">
+              <div class="text-center mb-4">
+                <img src="{{ asset('assets_admin/img/front-pages/icons/laptop.png')}}" alt="laptop charging" />
+              </div>
+              <h5 class="mb-2">Quality Code</h5>
+              <p class="features-icon-description">
+                Code structure that all developers will easily understand and fall in love with.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center features-icon-box">
+              <div class="text-center mb-4">
+                <img src="{{ asset('assets_admin/img/front-pages/icons/rocket.png')}}" alt="transition up" />
+              </div>
+              <h5 class="mb-2">Continuous Updates</h5>
+              <p class="features-icon-description">
+                Free updates for the next 12 months, including new demos and features.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center features-icon-box">
+              <div class="text-center mb-4">
+                <img src="{{ asset('assets_admin/img/front-pages/icons/paper.png')}}" alt="edit" />
+              </div>
+              <h5 class="mb-2">Stater-Kit</h5>
+              <p class="features-icon-description">
+                Start your project quickly without having to remove unnecessary features.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center features-icon-box">
+              <div class="text-center mb-4">
+                <img src="{{ asset('assets_admin/img/front-pages/icons/check.png')}}" alt="3d select solid" />
+              </div>
+              <h5 class="mb-2">API Ready</h5>
+              <p class="features-icon-description">
+                Just change the endpoint and see your own data loaded within seconds.
+              </p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center features-icon-box">
+              <div class="text-center mb-4">
+                <img src="{{ asset('assets_admin/img/front-pages/icons/user.png')}}" alt="lifebelt" />
+              </div>
+              <h5 class="mb-2">Excellent Support</h5>
+              <p class="features-icon-description">An easy-to-follow doc with lots of references and code examples.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 text-center features-icon-box">
+              <div class="text-center mb-4">
+                <img src="{{ asset('assets_admin/img/front-pages/icons/keyboard.png')}}" alt="google docs" />
+              </div>
+              <h5 class="mb-2">Well Documented</h5>
+              <p class="features-icon-description">An easy-to-follow doc with lots of references and code examples.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Useful features: End -->
+
+      <!-- Real customers reviews: Start -->
+      <section id="landingReviews" class="section-py bg-body landing-reviews pb-0">
+        <!-- What people say slider: Start -->
+        <div class="container">
+          <div class="row align-items-center gx-0 gy-4 g-lg-5 mb-5 pb-md-5">
+            <div class="col-md-6 col-lg-5 col-xl-3">
+              <div class="mb-4">
+                <span class="badge bg-label-primary">Real Customers Reviews</span>
+              </div>
+              <h4 class="mb-1">
+                <span class="position-relative fw-extrabold z-1"
+                  >What people say
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/icons/section-title-icon.png')}}"
+                    alt="laptop charging"
+                    class="section-title-img position-absolute object-fit-contain bottom-0 z-n1" />
+                </span>
+              </h4>
+              <p class="mb-5 mb-md-12">
+                See what our customers have to<br class="d-none d-xl-block" />
+                say about their experience.
+              </p>
+              <div class="landing-reviews-btns">
+                <button
+                  id="reviews-previous-btn"
+                  class="btn btn-label-primary reviews-btn me-4 scaleX-n1-rtl"
+                  type="button">
+                  <i class="ti ti-chevron-left ti-md"></i>
+                </button>
+                <button id="reviews-next-btn" class="btn btn-label-primary reviews-btn scaleX-n1-rtl" type="button">
+                  <i class="ti ti-chevron-right ti-md"></i>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-7 col-xl-9">
+              <div class="swiper-reviews-carousel overflow-hidden">
+                <div class="swiper" id="swiper-reviews">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="card h-100">
+                        <div class="card-body text-body d-flex flex-column justify-content-between h-100">
+                          <div class="mb-4">
+                            <img
+                              src="{{ asset('assets_admin/img/front-pages/branding/logo-1.png')}}"
+                              alt="client logo"
+                              class="client-logo img-fluid" />
+                          </div>
+                          <p>
+                            “Vuexy is hands down the most useful front end Bootstrap theme I've ever used. I can't wait
+                            to use it again for my next project.”
+                          </p>
+                          <div class="text-warning mb-4">
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                          </div>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar me-3 avatar-sm">
+                              <img src="{{ asset('assets_admin/img/avatars/1.png')}}" alt="Avatar" class="rounded-circle" />
+                            </div>
+                            <div>
+                              <h6 class="mb-0">Cecilia Payne</h6>
+                              <p class="small text-muted mb-0">CEO of Airbnb</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card h-100">
+                        <div class="card-body text-body d-flex flex-column justify-content-between h-100">
+                          <div class="mb-4">
+                            <img
+                              src="{{ asset('assets_admin/img/front-pages/branding/logo-2.png')}}"
+                              alt="client logo"
+                              class="client-logo img-fluid" />
+                          </div>
+                          <p>
+                            “I've never used a theme as versatile and flexible as Vuexy. It's my go to for building
+                            dashboard sites on almost any project.”
+                          </p>
+                          <div class="text-warning mb-4">
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                          </div>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar me-3 avatar-sm">
+                              <img src="{{ asset('assets_admin/img/avatars/2.png')}}" alt="Avatar" class="rounded-circle" />
+                            </div>
+                            <div>
+                              <h6 class="mb-0">Eugenia Moore</h6>
+                              <p class="small text-muted mb-0">Founder of Hubspot</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card h-100">
+                        <div class="card-body text-body d-flex flex-column justify-content-between h-100">
+                          <div class="mb-4">
+                            <img
+                              src="{{ asset('assets_admin/img/front-pages/branding/logo-3.png')}}"
+                              alt="client logo"
+                              class="client-logo img-fluid" />
+                          </div>
+                          <p>
+                            This template is really clean & well documented. The docs are really easy to understand and
+                            it's always easy to find a screenshot from their website.
+                          </p>
+                          <div class="text-warning mb-4">
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                          </div>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar me-3 avatar-sm">
+                              <img src="{{ asset('assets_admin/img/avatars/3.png')}}" alt="Avatar" class="rounded-circle" />
+                            </div>
+                            <div>
+                              <h6 class="mb-0">Curtis Fletcher</h6>
+                              <p class="small text-muted mb-0">Design Lead at Dribbble</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card h-100">
+                        <div class="card-body text-body d-flex flex-column justify-content-between h-100">
+                          <div class="mb-4">
+                            <img
+                              src="{{ asset('assets_admin/img/front-pages/branding/logo-4.png')}}"
+                              alt="client logo"
+                              class="client-logo img-fluid" />
+                          </div>
+                          <p>
+                            All the requirements for developers have been taken into consideration, so I’m able to build
+                            any interface I want.
+                          </p>
+                          <div class="text-warning mb-4">
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star"></i>
+                          </div>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar me-3 avatar-sm">
+                              <img src="{{ asset('assets_admin/img/avatars/4.png')}}" alt="Avatar" class="rounded-circle" />
+                            </div>
+                            <div>
+                              <h6 class="mb-0">Sara Smith</h6>
+                              <p class="small text-muted mb-0">Founder of Continental</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card h-100">
+                        <div class="card-body text-body d-flex flex-column justify-content-between h-100">
+                          <div class="mb-4">
+                            <img
+                              src="{{ asset('assets_admin/img/front-pages/branding/logo-5.png')}}"
+                              alt="client logo"
+                              class="client-logo img-fluid" />
+                          </div>
+                          <p>
+                            “I've never used a theme as versatile and flexible as Vuexy. It's my go to for building
+                            dashboard sites on almost any project.”
+                          </p>
+                          <div class="text-warning mb-4">
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                          </div>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar me-3 avatar-sm">
+                              <img src="{{ asset('assets_admin/img/avatars/5.png')}}" alt="Avatar" class="rounded-circle" />
+                            </div>
+                            <div>
+                              <h6 class="mb-0">Eugenia Moore</h6>
+                              <p class="small text-muted mb-0">Founder of Hubspot</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card h-100">
+                        <div class="card-body text-body d-flex flex-column justify-content-between h-100">
+                          <div class="mb-4">
+                            <img
+                              src="{{ asset('assets_admin/img/front-pages/branding/logo-6.png')}}"
+                              alt="client logo"
+                              class="client-logo img-fluid" />
+                          </div>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam nemo mollitia, ad eum
+                            officia numquam nostrum repellendus consequuntur!
+                          </p>
+                          <div class="text-warning mb-4">
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star-filled"></i>
+                            <i class="ti ti-star"></i>
+                          </div>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar me-3 avatar-sm">
+                              <img src="{{ asset('assets_admin/img/avatars/1.png')}}" alt="Avatar" class="rounded-circle" />
+                            </div>
+                            <div>
+                              <h6 class="mb-0">Sara Smith</h6>
+                              <p class="small text-muted mb-0">Founder of Continental</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-button-next"></div>
+                  <div class="swiper-button-prev"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- What people say slider: End -->
+        <hr class="m-0 mt-6 mt-md-12" />
+        <!-- Logo slider: Start -->
+        <div class="container">
+          <div class="swiper-logo-carousel py-8">
+            <div class="swiper" id="swiper-clients-logos">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/branding/logo_1-light.png')}}"
+                    alt="client logo"
+                    class="client-logo"
+                    data-app-light-img="front-pages/branding/logo_1-light.png"
+                    data-app-dark-img="front-pages/branding/logo_1-dark.png" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/branding/logo_2-light.png')}}"
+                    alt="client logo"
+                    class="client-logo"
+                    data-app-light-img="front-pages/branding/logo_2-light.png"
+                    data-app-dark-img="front-pages/branding/logo_2-dark.png" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/branding/logo_3-light.png')}}"
+                    alt="client logo"
+                    class="client-logo"
+                    data-app-light-img="front-pages/branding/logo_3-light.png"
+                    data-app-dark-img="front-pages/branding/logo_3-dark.png" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/branding/logo_4-light.png')}}"
+                    alt="client logo"
+                    class="client-logo"
+                    data-app-light-img="front-pages/branding/logo_4-light.png"
+                    data-app-dark-img="front-pages/branding/logo_4-dark.png" />
+                </div>
+                <div class="swiper-slide">
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/branding/logo_5-light.png')}}"
+                    alt="client logo"
+                    class="client-logo"
+                    data-app-light-img="front-pages/branding/logo_5-light.png"
+                    data-app-dark-img="front-pages/branding/logo_5-dark.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Logo slider: End -->
+      </section>
+      <!-- Real customers reviews: End -->
+
+      <!-- Our great team: Start -->
+      <section id="landingTeam" class="section-py landing-team">
+        <div class="container">
+          <div class="text-center mb-4">
+            <span class="badge bg-label-primary">Our Great Team</span>
+          </div>
+          <h4 class="text-center mb-1">
+            <span class="position-relative fw-extrabold z-1"
+              >Supported
+              <img
+                src="{{ asset('assets_admin/img/front-pages/icons/section-title-icon.png')}}"
+                alt="laptop charging"
+                class="section-title-img position-absolute object-fit-contain bottom-0 z-n1" />
+            </span>
+            by Real People
+          </h4>
+          <p class="text-center mb-md-11 pb-0 pb-xl-12">Who is behind these great-looking interfaces?</p>
+          <div class="row gy-12 mt-2">
+            <div class="col-lg-3 col-sm-6">
+              <div class="card mt-3 mt-lg-0 shadow-none">
+                <div
+                  class="bg-label-primary border border-bottom-0 border-label-primary position-relative team-image-box">
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/landing-page/team-member-1.png')}}"
+                    class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl"
+                    alt="human image" />
+                </div>
+                <div class="card-body border border-top-0 border-label-primary text-center">
+                  <h5 class="card-title mb-0">Sophie Gilbert</h5>
+                  <p class="text-muted mb-0">Project Manager</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="card mt-3 mt-lg-0 shadow-none">
+                <div class="bg-label-info border border-bottom-0 border-label-info position-relative team-image-box">
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/landing-page/team-member-2.png')}}"
+                    class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl"
+                    alt="human image" />
+                </div>
+                <div class="card-body border border-top-0 border-label-info text-center">
+                  <h5 class="card-title mb-0">Paul Miles</h5>
+                  <p class="text-muted mb-0">UI Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="card mt-3 mt-lg-0 shadow-none">
+                <div
+                  class="bg-label-danger border border-bottom-0 border-label-danger position-relative team-image-box">
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/landing-page/team-member-3.png')}}"
+                    class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl"
+                    alt="human image" />
+                </div>
+                <div class="card-body border border-top-0 border-label-danger text-center">
+                  <h5 class="card-title mb-0">Nannie Ford</h5>
+                  <p class="text-muted mb-0">Development Lead</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="card mt-3 mt-lg-0 shadow-none">
+                <div
+                  class="bg-label-success border border-bottom-0 border-label-success position-relative team-image-box">
+                  <img
+                    src="{{ asset('assets_admin/img/front-pages/landing-page/team-member-4.png')}}"
+                    class="position-absolute card-img-position bottom-0 start-50 scaleX-n1-rtl"
+                    alt="human image" />
+                </div>
+                <div class="card-body border border-top-0 border-label-success text-center">
+                  <h5 class="card-title mb-0">Chris Watkins</h5>
+                  <p class="text-muted mb-0">Marketing Manager</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our great team: End -->
+
+      <!-- Pricing plans: Start -->
+      <section id="landingPricing" class="section-py bg-body landing-pricing">
+        <div class="container">
+          <div class="text-center mb-4">
+            <span class="badge bg-label-primary">Pricing Plans</span>
+          </div>
+          <h4 class="text-center mb-1">
+            <span class="position-relative fw-extrabold z-1"
+              >Tailored pricing plans
+              <img
+                src="{{ asset('assets_admin/img/front-pages/icons/section-title-icon.png')}}"
+                alt="laptop charging"
+                class="section-title-img position-absolute object-fit-contain bottom-0 z-n1" />
+            </span>
+            designed for you
+          </h4>
+          <p class="text-center pb-2 mb-7">
+            All plans include 40+ advanced tools and features to boost your product.<br />Choose the best plan to fit
+            your needs.
+          </p>
+          <div class="text-center mb-12">
+            <div class="position-relative d-inline-block pt-3 pt-md-0">
+              <label class="switch switch-sm switch-primary me-0">
+                <span class="switch-label fs-6 text-body me-3">Pay Monthly</span>
+                <input type="checkbox" class="switch-input price-duration-toggler" checked />
+                <span class="switch-toggle-slider">
+                  <span class="switch-on"></span>
+                  <span class="switch-off"></span>
+                </span>
+                <span class="switch-label fs-6 text-body ms-3">Pay Annual</span>
+              </label>
+              <div class="pricing-plans-item position-absolute d-flex">
+                <img
+                  src="{{ asset('assets_admin/img/front-pages/icons/pricing-plans-arrow.png')}}"
+                  alt="pricing plans arrow"
+                  class="scaleX-n1-rtl" />
+                <span class="fw-medium mt-2 ms-1"> Save 25%</span>
+              </div>
+            </div>
+          </div>
+          <div class="row g-6 pt-lg-5">
+            <!-- Basic Plan: Start -->
+            <div class="col-xl-4 col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  <div class="text-center">
+                    <img
+                      src="{{ asset('assets_admin/img/front-pages/icons/paper-airplane.png')}}"
+                      alt="paper airplane icon"
+                      class="mb-8 pb-2" />
+                    <h4 class="mb-0">Basic</h4>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="price-monthly h2 text-primary fw-extrabold mb-0">$19</span>
+                      <span class="price-yearly h2 text-primary fw-extrabold mb-0 d-none">$14</span>
+                      <sub class="h6 text-muted mb-n1 ms-1">/mo</sub>
+                    </div>
+                    <div class="position-relative pt-2">
+                      <div class="price-yearly text-muted price-yearly-toggle d-none">$ 168 / year</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled pricing-list">
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Timeline
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Basic search
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Live chat widget
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Email marketing
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Custom Forms
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Traffic analytics
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Basic Support
+                      </h6>
+                    </li>
+                  </ul>
+                  <div class="d-grid mt-8">
+                    <a href="payment-page.html" class="btn btn-label-primary">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Basic Plan: End -->
+
+            <!-- Favourite Plan: Start -->
+            <div class="col-xl-4 col-lg-6">
+              <div class="card border border-primary shadow-xl">
+                <div class="card-header">
+                  <div class="text-center">
+                    <img src="{{ asset('assets_admin/img/front-pages/icons/plane.png')}}" alt="plane icon" class="mb-8 pb-2" />
+                    <h4 class="mb-0">Team</h4>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="price-monthly h2 text-primary fw-extrabold mb-0">$29</span>
+                      <span class="price-yearly h2 text-primary fw-extrabold mb-0 d-none">$22</span>
+                      <sub class="h6 text-muted mb-n1 ms-1">/mo</sub>
+                    </div>
+                    <div class="position-relative pt-2">
+                      <div class="price-yearly text-muted price-yearly-toggle d-none">$ 264 / year</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled pricing-list">
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Everything in basic
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Timeline with database
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Advanced search
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Marketing automation
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Advanced chatbot
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Campaign management
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Collaboration tools
+                      </h6>
+                    </li>
+                  </ul>
+                  <div class="d-grid mt-8">
+                    <a href="payment-page.html" class="btn btn-primary">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Favourite Plan: End -->
+
+            <!-- Standard Plan: Start -->
+            <div class="col-xl-4 col-lg-6">
+              <div class="card">
+                <div class="card-header">
+                  <div class="text-center">
+                    <img
+                      src="{{ asset('assets_admin/img/front-pages/icons/shuttle-rocket.png')}}"
+                      alt="shuttle rocket icon"
+                      class="mb-8 pb-2" />
+                    <h4 class="mb-0">Enterprise</h4>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="price-monthly h2 text-primary fw-extrabold mb-0">$49</span>
+                      <span class="price-yearly h2 text-primary fw-extrabold mb-0 d-none">$37</span>
+                      <sub class="h6 text-muted mb-n1 ms-1">/mo</sub>
+                    </div>
+                    <div class="position-relative pt-2">
+                      <div class="price-yearly text-muted price-yearly-toggle d-none">$ 444 / year</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <ul class="list-unstyled pricing-list">
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Everything in premium
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Timeline with database
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Fuzzy search
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        A/B testing sanbox
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Custom permissions
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Social media automation
+                      </h6>
+                    </li>
+                    <li>
+                      <h6 class="mb-3">
+                        <span class="badge badge-center rounded-pill bg-label-primary p-0 me-2"
+                          ><i class="ti ti-check ti-14px"></i
+                        ></span>
+                        Sales automation tools
+                      </h6>
+                    </li>
+                  </ul>
+                  <div class="d-grid mt-8">
+                    <a href="payment-page.html" class="btn btn-label-primary">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Standard Plan: End -->
+          </div>
+        </div>
+      </section>
+      <!-- Pricing plans: End -->
+
+      <!-- Fun facts: Start -->
+      <section id="landingFunFacts" class="section-py landing-fun-facts">
+        <div class="container">
+          <div class="row gy-6">
+            <div class="col-sm-6 col-lg-3">
+              <div class="card border border-primary shadow-none">
+                <div class="card-body text-center">
+                  <img src="{{ asset('assets_admin/img/front-pages/icons/laptop.png" alt="laptop')}}" class="mb-4" />
+                  <h3 class="mb-0">7.1k+</h3>
+                  <p class="fw-medium mb-0">
+                    Support Tickets<br />
+                    Resolved
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="card border border-success shadow-none">
+                <div class="card-body text-center">
+                  <img src="{{ asset('assets_admin/img/front-pages/icons/user-success.png')}}" alt="laptop" class="mb-4" />
+                  <h3 class="mb-0">50k+</h3>
+                  <p class="fw-medium mb-0">
+                    Join creatives<br />
+                    community
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="card border border-info shadow-none">
+                <div class="card-body text-center">
+                  <img src="{{ asset('assets_admin/img/front-pages/icons/diamond-info.png')}}" alt="laptop" class="mb-4" />
+                  <h3 class="mb-0">4.8/5</h3>
+                  <p class="fw-medium mb-0">
+                    Highly Rated<br />
+                    Products
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <div class="card border border-warning shadow-none">
+                <div class="card-body text-center">
+                  <img src="{{ asset('assets_admin/img/front-pages/icons/check-warning.png')}}" alt="laptop" class="mb-4" />
+                  <h3 class="mb-0">100%</h3>
+                  <p class="fw-medium mb-0">
+                    Money Back<br />
+                    Guarantee
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Fun facts: End -->
+
+      <!-- FAQ: Start -->
+      <section id="landingFAQ" class="section-py bg-body landing-faq">
+        <div class="container">
+          <div class="text-center mb-4">
+            <span class="badge bg-label-primary">FAQ</span>
+          </div>
+          <h4 class="text-center mb-1">
+            Frequently asked
+            <span class="position-relative fw-extrabold z-1"
+              >questions
+              <img
+                src="{{ asset('assets_admin/img/front-pages/icons/section-title-icon.png')}}"
+                alt="laptop charging"
+                class="section-title-img position-absolute object-fit-contain bottom-0 z-n1" />
+            </span>
+          </h4>
+          <p class="text-center mb-12 pb-md-4">
+            Browse through these FAQs to find answers to commonly asked questions.
+          </p>
+          <div class="row gy-12 align-items-center">
+            <div class="col-lg-5">
+              <div class="text-center">
+                <img
+                  src="{{ asset('assets_admin/img/front-pages/landing-page/faq-boy-with-logos.png')}}"
+                  alt="faq boy with logos"
+                  class="faq-image" />
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="accordion" id="accordionExample">
+                <div class="card accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      type="button"
+                      class="accordion-button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordionOne"
+                      aria-expanded="true"
+                      aria-controls="accordionOne">
+                      Do you charge for each upgrade?
+                    </button>
+                  </h2>
+
+                  <div id="accordionOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Lemon drops chocolate cake gummies carrot cake chupa chups muffin topping. Sesame snaps icing
+                      marzipan gummi bears macaroon dragée danish caramels powder. Bear claw dragée pastry topping
+                      soufflé. Wafer gummi bears marshmallow pastry pie.
+                    </div>
+                  </div>
+                </div>
+                <div class="card accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      type="button"
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordionTwo"
+                      aria-expanded="false"
+                      aria-controls="accordionTwo">
+                      Do I need to purchase a license for each website?
+                    </button>
+                  </h2>
+                  <div
+                    id="accordionTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Dessert ice cream donut oat cake jelly-o pie sugar plum cheesecake. Bear claw dragée oat cake
+                      dragée ice cream halvah tootsie roll. Danish cake oat cake pie macaroon tart donut gummies. Jelly
+                      beans candy canes carrot cake. Fruitcake chocolate chupa chups.
+                    </div>
+                  </div>
+                </div>
+                <div class="card accordion-item active">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      type="button"
+                      class="accordion-button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordionThree"
+                      aria-expanded="false"
+                      aria-controls="accordionThree">
+                      What is regular license?
+                    </button>
+                  </h2>
+                  <div
+                    id="accordionThree"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Regular license can be used for end products that do not charge users for access or service(access
+                      is free and there will be no monthly subscription fee). Single regular license can be used for
+                      single end product and end product can be used by you or your client. If you want to sell end
+                      product to multiple clients then you will need to purchase separate license for each client. The
+                      same rule applies if you want to use the same end product on multiple domains(unique setup). For
+                      more info on regular license you can check official description.
+                    </div>
+                  </div>
+                </div>
+                <div class="card accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      type="button"
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordionFour"
+                      aria-expanded="false"
+                      aria-controls="accordionFour">
+                      What is extended license?
+                    </button>
+                  </h2>
+                  <div
+                    id="accordionFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis et aliquid quaerat possimus maxime!
+                      Mollitia reprehenderit neque repellat deleniti delectus architecto dolorum maxime, blanditiis
+                      earum ea, incidunt quam possimus cumque.
+                    </div>
+                  </div>
+                </div>
+                <div class="card accordion-item">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button
+                      type="button"
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#accordionFive"
+                      aria-expanded="false"
+                      aria-controls="accordionFive">
+                      Which license is applicable for SASS application?
+                    </button>
+                  </h2>
+                  <div
+                    id="accordionFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi molestias exercitationem ab cum
+                      nemo facere voluptates veritatis quia, eveniet veniam at et repudiandae mollitia ipsam quasi
+                      labore enim architecto non!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ: End -->
+
+      <!-- CTA: Start -->
+      <section id="landingCTA" class="section-py landing-cta position-relative p-lg-0 pb-0">
+        <img
+          src="{{ asset('assets_admin/img/front-pages/backgrounds/cta-bg-light.png')}}"
+          class="position-absolute bottom-0 end-0 scaleX-n1-rtl h-100 w-100 z-n1"
+          alt="cta image"
+          data-app-light-img="front-pages/backgrounds/cta-bg-light.png"
+          data-app-dark-img="front-pages/backgrounds/cta-bg-dark.png" />
+        <div class="container">
+          <div class="row align-items-center gy-12">
+            <div class="col-lg-6 text-start text-sm-center text-lg-start">
+              <h3 class="cta-title text-primary fw-bold mb-0">Ready to Get Started?</h3>
+              <h5 class="text-body mb-8">Start your project with a 14-day free trial</h5>
+              <a href="payment-page.html" class="btn btn-lg btn-primary">Get Started</a>
+            </div>
+            <div class="col-lg-6 pt-lg-12 text-center text-lg-end">
+              <img
+                src="{{ asset('assets_admin/img/front-pages/landing-page/cta-dashboard.png')}}"
+                alt="cta dashboard"
+                class="img-fluid mt-lg-4" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CTA: End -->
+
+      <!-- Contact Us: Start -->
+      <section id="landingContact" class="section-py bg-body landing-contact">
+        <div class="container">
+          <div class="text-center mb-4">
+            <span class="badge bg-label-primary">Contact US</span>
+          </div>
+          <h4 class="text-center mb-1">
+            <span class="position-relative fw-extrabold z-1"
+              >Let's work
+              <img
+                src="{{ asset('assets_admin/img/front-pages/icons/section-title-icon.png')}}"
+                alt="laptop charging"
+                class="section-title-img position-absolute object-fit-contain bottom-0 z-n1" />
+            </span>
+            together
+          </h4>
+          <p class="text-center mb-12 pb-md-4">Any question or remark? just write us a message</p>
+          <div class="row g-6">
+            <div class="col-lg-5">
+              <div class="contact-img-box position-relative border p-2 h-100">
+                <img
+                  src="{{ asset('assets_admin/img/front-pages/icons/contact-border.png')}}"
+                  alt="contact border"
+                  class="contact-border-img position-absolute d-none d-lg-block scaleX-n1-rtl" />
+                <img
+                  src="{{ asset('assets_admin/img/front-pages/landing-page/contact-customer-service.png')}}"
+                  alt="contact customer service"
+                  class="contact-img w-100 scaleX-n1-rtl" />
+                <div class="p-4 pb-2">
+                  <div class="row g-4">
+                    <div class="col-md-6 col-lg-12 col-xl-6">
+                      <div class="d-flex align-items-center">
+                        <div class="badge bg-label-primary rounded p-1_5 me-3"><i class="ti ti-mail ti-lg"></i></div>
+                        <div>
+                          <p class="mb-0">Email</p>
+                          <h6 class="mb-0">
+                            <a href="mailto:example@gmail.com" class="text-heading">example@gmail.com</a>
+                          </h6>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-lg-12 col-xl-6">
+                      <div class="d-flex align-items-center">
+                        <div class="badge bg-label-success rounded p-1_5 me-3">
+                          <i class="ti ti-phone-call ti-lg"></i>
+                        </div>
+                        <div>
+                          <p class="mb-0">Phone</p>
+                          <h6 class="mb-0"><a href="tel:+1234-568-963" class="text-heading">+1234 568 963</a></h6>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="mb-2">Send a message</h4>
+                  <p class="mb-6">
+                    If you would like to discuss anything related to payment, account, licensing,<br
+                      class="d-none d-lg-block" />
+                    partnerships, or have pre-sales questions, you’re at the right place.
+                  </p>
+                  <form>
+                    <div class="row g-4">
+                      <div class="col-md-6">
+                        <label class="form-label" for="contact-form-fullname">Full Name</label>
+                        <input type="text" class="form-control" id="contact-form-fullname" placeholder="john" />
+                      </div>
+                      <div class="col-md-6">
+                        <label class="form-label" for="contact-form-email">Email</label>
+                        <input
+                          type="text"
+                          id="contact-form-email"
+                          class="form-control"
+                          placeholder="johndoe@gmail.com" />
+                      </div>
+                      <div class="col-12">
+                        <label class="form-label" for="contact-form-message">Message</label>
+                        <textarea
+                          id="contact-form-message"
+                          class="form-control"
+                          rows="7"
+                          placeholder="Write a message"></textarea>
+                      </div>
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Send inquiry</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Contact Us: End -->
+    </div>
 @endsection
