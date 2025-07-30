@@ -361,46 +361,28 @@
             <!-- /Invoice Add-->
 
             <!-- Invoice Actions -->
-            <div class="col-lg-3 col-12 invoice-actions">
-                <div class="card mb-6">
+            <div class="col-xl-3 col-md-4 col-12 invoice-actions">
+                <div class="card">
                     <div class="card-body">
                         <button class="btn btn-primary d-grid w-100 mb-4" data-bs-toggle="offcanvas"
                             data-bs-target="#sendInvoiceOffcanvas">
                             <span class="d-flex align-items-center justify-content-center text-nowrap"><i
-                                    class="ti ti-send ti-xs me-2"></i>Kirim Tagihan</span>
+                                    class="ti ti-send ti-xs me-2"></i>Send Invoice</span>
                         </button>
-                        <a href="./app-invoice-preview.html" class="btn btn-label-secondary d-grid w-100 mb-4">Cetak
-                            Nota</a>
-                        <button type="button" class="btn btn-label-secondary d-grid w-100">Save</button>
+                        <button class="btn btn-label-secondary d-grid w-100 mb-4">Download</button>
+                        <div class="d-flex mb-4">
+                            <a class="btn btn-label-secondary d-grid w-100 me-4" href="{{ url('/print') }}">
+                                Print
+                            </a>
+                            <a href="./app-invoice-edit.html" class="btn btn-label-secondary d-grid w-100"> Edit </a>
+                        </div>
+                        <button class="btn btn-success d-grid w-100" data-bs-toggle="offcanvas"
+                            data-bs-target="#addPaymentOffcanvas">
+                            <span class="d-flex align-items-center justify-content-center text-nowrap"><i
+                                    class="ti ti-currency-dollar ti-xs me-2"></i>Add Payment</span>
+                        </button>
                     </div>
                 </div>
-                {{-- <div>
-                    <label for="acceptPaymentsVia" class="form-label">Accept payments via</label>
-                    <select class="form-select mb-6" id="acceptPaymentsVia">
-                        <option value="Bank Account">Bank Account</option>
-                        <option value="Paypal">Paypal</option>
-                        <option value="Card">Credit/Debit Card</option>
-                        <option value="UPI Transfer">UPI Transfer</option>
-                    </select>
-                    <div class="d-flex justify-content-between mb-2">
-                        <label for="payment-terms">Payment Terms</label>
-                        <div class="form-check form-switch me-n2">
-                            <input type="checkbox" class="form-check-input" id="payment-terms" checked />
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between mb-2">
-                        <label for="client-notes">Client Notes</label>
-                        <div class="form-check form-switch me-n2">
-                            <input type="checkbox" class="form-check-input" id="client-notes" checked />
-                        </div>
-                    </div>
-                    <div class="d-flex justify-content-between">
-                        <label for="payment-stub">Payment Stub</label>
-                        <div class="form-check form-switch me-n2">
-                            <input type="checkbox" class="form-check-input" id="payment-stub" checked />
-                        </div>
-                    </div>
-                </div> --}}
             </div>
             <!-- /Invoice Actions -->
         </div>

@@ -51,11 +51,11 @@
                         <div data-i18n="Penjualan">Penjualan</div>
                     </a>
                 </li>
-                <li class="menu-item {{ Request::routeIs('sales.preview') ? 'active' : '' }}">
+                {{-- <li class="menu-item {{ Request::routeIs('sales.preview') ? 'active' : '' }}">
                     <a href="{{ route('sales.preview') }}" class="menu-link">
                         <div data-i18n="Pratinjau">Pratinjau</div>
                     </a>
-                </li>
+                </li> --}}
             </ul>
         </li>
 
