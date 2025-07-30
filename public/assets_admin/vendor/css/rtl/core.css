@@ -7179,6 +7179,23 @@ h6, .h6 {
   right: -1px;
 }
 
+.bg-label-success1 {
+    background-color: #ddf6e8 !important;
+    color: #28c76f !important;
+    width: 150px;    
+    height: 40px;     
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    margin-left: auto;
+    margin-right: 0;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+
 .bg-label-secondary {
   background-color: #ebebed !important;
   color: #808390 !important;
@@ -7766,6 +7783,11 @@ label.btn {
   color: #808390 !important;
   border-color: transparent !important;
   background: #ebebed !important;
+}
+.btn-label-secondary1 {
+    color: #ffffff !important;
+    border-color: transparent !important;
+    background: #1bdb16 !important;
 }
 .btn-label-secondary.waves-effect .waves-ripple {
   background: radial-gradient(rgba(128, 131, 144, 0.2) 0, rgba(128, 131, 144, 0.3) 40%, rgba(128, 131, 144, 0.4) 50%, rgba(128, 131, 144, 0.5) 60%, rgba(255, 255, 255, 0) 70%);
@@ -16076,6 +16098,11 @@ html:not([dir=rtl]) .card .card-separator {
   color: #444050 !important;
 }
 
+.text-heading-price {
+  --bs-text-opacity: 1;
+  color: #FF0000 ;
+}
+
 .text-reset {
   --bs-text-opacity: 1;
   color: inherit !important;
@@ -18475,6 +18502,10 @@ html:not([dir=rtl]) .card .card-separator {
   }
   .pt-md-9 {
     padding-top: 2.25rem !important;
+  }
+    .pt-md-33 {
+    padding-top: 4.25rem !important;
+    
   }
   .pt-md-10 {
     padding-top: 2.5rem !important;
@@ -34412,4 +34443,8 @@ a.bg-vimeo:hover, a.bg-vimeo:focus {
 }
 .footer.bg-lighter hr {
   border-color: rgba(68, 64, 80, 0.0774680392);
+}
+.bg-success-1 {
+    --bs-bg-opacity: 1;
+    background-color: #437057 !important;
 }

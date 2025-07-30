@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\SalesController;
+use App\Models\Sales;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
@@ -7,6 +9,17 @@ use Illuminate\Support\Facades\Auth;
 Route::get('/', function () {
     return view('interface.welcome');
 });
+
+// Sales
+Route::get('/sales', [SalesController::class, 'index'])->name('sales');
+Route::get('/product', [SalesController::class, 'product'])->name('sales.product');
+Route::get('/sale', [SalesController::class, 'sale'])->name('sales.sale');
+Route::get('/preview', [SalesController::class, 'preview'])->name('sales.preview');
+Route::get('/print/{id}', [SalesController::class, 'print'])->name('sales.print');
+Route::get('/profile', [SalesController::class, 'profile'])->name('sales.profile');
+Route::get('/calendar', [SalesController::class, 'calendar'])->name('sales.calendar');
+
+
 
 Auth::routes();
 
