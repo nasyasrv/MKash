@@ -24,3 +24,7 @@ Route::get('/calendar', [SalesController::class, 'calendar'])->name('sales.calen
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::get('/home_admin', function () {
+    return view('admin.home');
+});
