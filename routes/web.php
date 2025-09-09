@@ -15,7 +15,7 @@ Route::get('/sales', [SalesController::class, 'index'])->name('sales');
 Route::get('/product', [SalesController::class, 'product'])->name('sales.product');
 Route::get('/sale', [SalesController::class, 'sale'])->name('sales.sale');
 Route::get('/preview', [SalesController::class, 'preview'])->name('sales.preview');
-Route::get('/print/{id}', [SalesController::class, 'print'])->name('sales.print');
+Route::get('/print', [SalesController::class, 'print'])->name('sales.print');
 Route::get('/profile', [SalesController::class, 'profile'])->name('sales.profile');
 Route::get('/calendar', [SalesController::class, 'calendar'])->name('sales.calendar');
 
@@ -27,4 +27,20 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 
 Route::get('/home_admin', function () {
     return view('admin.home');
+});
+
+Route::get('/product', function () {
+    return view('admin.product.index');
+});
+
+Route::get('/product/all/preview', function () {
+    return view('admin.product.index_detail');
+});
+
+Route::get('/admin/penjualan', function () {
+    return view('admin.penjualan.index');
+});
+
+Route::get('/admin/tambah_penjualan', function () {
+    return view('admin.penjualan.add');
 });
