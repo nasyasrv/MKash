@@ -28,3 +28,19 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/home_admin', function () {
     return view('admin.home');
 });
+
+Route::get('/product', function () {
+    return view('admin.product.index');
+});
+
+Route::get('/product/all/preview', function () {
+    return view('admin.product.index_detail');
+});
+
+Route::get('/admin/penjualan', function () {
+    return view('admin.penjualan.index');
+});
+
+Route::get('/admin/tambah_penjualan', function () {
+    return view('admin.penjualan.add');
+});
