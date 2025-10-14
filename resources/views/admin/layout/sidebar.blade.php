@@ -42,7 +42,7 @@
                     <span class="menu-header-text">Produk dan Penjualan</span>
                 </li>
                 <li class="menu-item">
-                    <a href="/product" class="menu-link">
+                    <a href="/admin/product" class="menu-link">
                         <i class="menu-icon tf-icons ti ti-box"></i>
                         Produk
                     </a>

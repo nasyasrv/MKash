@@ -29,7 +29,7 @@ Route::get('/home_admin', function () {
     return view('admin.home');
 });
 
-Route::get('/product', function () {
+Route::get('/admin/product', function () {
     return view('admin.product.index');
 });
 
