@@ -1,4 +1,4 @@
-@extends('interface.sales.layouts.app')
+@extends('sales.layouts.app')
 @section('content')
     <div class="container-xxl flex-grow-1 container-p-y">
         <!-- Header -->
@@ -8,19 +8,24 @@
                     <div class="user-profile-header-banner">
                         <img src="../../assets_admin/img/pages/profile-banner.png" alt="Banner image" class="rounded-top" />
                     </div>
-                    <div class="user-profile-header d-flex flex-column flex-lg-row text-sm-start text-center mb-5">
+                    <div class="user-profile-header d-flex flex-column flex-lg-row text-sm-start text-center mb-5"
+                        style="height: 120px;">
                         <div class="flex-shrink-0 mt-n2 mx-sm-0 mx-auto">
                             <img src="../../assets_admin/img/avatars/1.png" alt="user image"
                                 class="d-block h-auto ms-0 ms-sm-6 rounded user-profile-img" />
                         </div>
                         <div class="flex-grow-1 mt-3 mt-lg-5">
                             <div
-                                class="d-flex align-items-md-end align-items-sm-start align-items-center justify-content-md-between justify-content-start mx-5 flex-md-row flex-column gap-4">
-                                <div class="user-profile-info">
+                                class="d-flex flex-md-row flex-column justify-content-md-between align-items-start mx-5 gap-4">
+
+                                <!-- Bagian Info -->
+                                <div class="user-profile-info" >
                                     <h4 class="mb-2 mt-lg-6">John Doe</h4>
                                     <div>JPG, SVG atau PNG diperbolehkan. Ukuran maksimal 500 mb</div>
                                 </div>
-                                <div class="button-wrapper" style="margin-bottom: 0.9rem;">
+
+                                <!-- Bagian Tombol -->
+                                <div class="button-wrapper" style="margin-top: 50px;"> <!-- Atur di sini -->
                                     <label for="upload" class="btn btn-primary mb-1" tabindex="0">
                                         <span class="d-none d-sm-block">Unggah foto baru</span>
                                         <i class="ti ti-upload d-block d-sm-none"></i>
@@ -31,11 +36,11 @@
                                         <i class="ti ti-refresh-dot d-block d-sm-none"></i>
                                         <span class="d-none d-sm-block">Atur ulang</span>
                                     </button>
-
                                 </div>
 
                             </div>
                         </div>
+
                     </div>
                 </div>
                 <!--/ Header -->
@@ -89,7 +94,7 @@
                         <div class="card card-action mb-6">
                             <div class="card-header align-items-center">
                                 <h5 class="card-action-title mb-0">
-                                    <i class="ti ti-chart-bar ti-lg text-body me-4"></i>Activity Timeline
+                                    <i class="ti ti-user-circle ti-lg text-body me-4"></i>Profil
                                 </h5>
                             </div>
                             <div class="card-body pt-3">

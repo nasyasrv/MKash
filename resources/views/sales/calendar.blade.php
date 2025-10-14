@@ -1,4 +1,4 @@
-@extends('interface.sales.layouts.app')
+@extends('sales.layouts.app')
 @section('content')
     <div class="container-xxl flex-grow-1 container-p-y">
         <div class="card app-calendar-wrapper">
@@ -17,7 +17,7 @@
                         <div class="inline-calendar"></div>
                     </div>
                     <hr class="mb-6 mx-n4 mt-3" />
-                    <div class="px-6 pb-2">
+                    {{-- <div class="px-6 pb-2">
                         <!-- Filter -->
                         <div>
                             <h5>Event Filters</h5>
@@ -56,7 +56,7 @@
                                 <label class="form-check-label" for="select-etc">ETC</label>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <!-- /Calendar Sidebar -->
 

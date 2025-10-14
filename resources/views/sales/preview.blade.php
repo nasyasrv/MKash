@@ -1,4 +1,4 @@
-@extends('interface.sales.layouts.app')
+@extends('sales.layouts.app')
 @section('content')
     <div class="container-xxl flex-grow-1 container-p-y">
         <div class="row invoice-preview">
@@ -180,7 +180,7 @@
                         </button>
                         <button class="btn btn-label-secondary d-grid w-100 mb-4">Download</button>
                         <div class="d-flex mb-4">
-                            <a class="btn btn-label-secondary d-grid w-100 me-4" href="{{ url('/print') }}">
+                            <a class="btn btn-label-secondary d-grid w-100 me-4" href="{{ url('/print') }}" target="_blank">
                                 Print
                             </a>
                             <a href="./app-invoice-edit.html" class="btn btn-label-secondary d-grid w-100"> Edit </a>

@@ -15,7 +15,7 @@
                         fill="#7367F0" />
                 </svg>
             </span>
-            <span class="app-brand-text demo menu-text fw-bold">Vuexy</span>
+            <span class="app-brand-text demo menu-text fw-bold">MiCash</span>
         </a>
 
         <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto">
@@ -27,8 +27,8 @@
     <div class="menu-inner-shadow"></div>
 
     <ul class="menu-inner py-1">
-        <li class="menu-item {{ Request::routeIs('sales') ? 'active' : '' }}">
-            <a href="{{ route('sales') }}" class="menu-link">
+        <li class="menu-item {{ Request::routeIs('desktop') ? 'active' : '' }}">
+            <a href="{{ route('desktop') }}" class="menu-link">
                 <i class="menu-icon tf-icons ti ti-smart-home"></i>
                 <div data-i18n="Desktop">Desktop</div>
             </a>

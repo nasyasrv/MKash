@@ -12,31 +12,31 @@ class SalesController extends Controller
      */
     public function index()
     {
-        return view('interface.sales.sales');
+        return view('sales.desktop');
     }
     public function product()
     {
-        return view('interface.sales.product');
+        return view('sales.product');
     }
     public function sale()
     {
-        return view('interface.sales.sale');
+        return view('sales.sale');
     }
     public function preview()
     {
-        return view('interface.sales.preview');
+        return view('sales.preview');
     }
     public function print()
     {
-        return view('interface.sales.print');
+        return view('sales.print');
     }
     public function profile()
     {
-        return view('interface.sales.profile');
+        return view('sales.profile');
     }
     public function calendar()
     {
-        return view('interface.sales.calendar');
+        return view('sales.calendar');
     }
 
     /**

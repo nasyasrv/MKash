@@ -50,10 +50,16 @@
     <link rel="stylesheet" href="../../assets_admin/vendor/libs/quill/editor.css" />
     <link rel="stylesheet" href="../../assets_admin/vendor/libs/@form-validation/form-validation.css" />
     <link rel="stylesheet" href="../../assets_admin/vendor/libs/swiper/swiper.css" />
-    <link rel="stylesheet" href="../../assets_admin/vendor/libs/datatables-checkboxes-jquery/datatables.checkboxes.css" />
+    <link rel="stylesheet"
+        href="../../assets_admin/vendor/libs/datatables-checkboxes-jquery/datatables.checkboxes.css" />
     <link rel="stylesheet" href="../../assets_admin/vendor/css/pages/page-profile.css" />
     <link rel="stylesheet" href="../../assets_admin/vendor/libs/animate-css/animate.css" />
     <link rel="stylesheet" href="../../assets_admin/vendor/libs/sweetalert2/sweetalert2.css" />
+
+        <!-- Row Group CSS -->
+    <link rel="stylesheet" href="../../assets_admin/vendor/libs/datatables-rowgroup-bs5/rowgroup.bootstrap5.css" />
+    <!-- Form Validation -->
+    <link rel="stylesheet" href="../../assets_admin/vendor/libs/@form-validation/form-validation.css" />
 
     <!-- Page CSS -->
     <link rel="stylesheet" href="../../assets_admin/vendor/css/pages/cards-advance.css" />
@@ -70,6 +76,8 @@
 
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
     <script src="../../assets_admin/js/config.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    @stack('styles')
 </head>
 
 <body>
@@ -77,13 +85,13 @@
     <div class="layout-wrapper layout-content-navbar">
         <div class="layout-container">
             <!-- Menu -->
-            @include('interface.sales.layouts.sidebar')
+            @include('sales.layouts.sidebar')
             <!-- / Menu -->
 
             <!-- Layout container -->
             <div class="layout-page">
                 <!-- Navbar -->
-                @include('interface.sales.layouts.navbar')
+                @include('sales.layouts.navbar')
                 <!-- / Navbar -->
 
                 <!-- Content wrapper -->
@@ -94,7 +102,7 @@
                     <!-- Layout container -->
 
                     <!-- Footer -->
-                    @include('interface.sales.layouts.footer')
+                    @include('sales.layouts.footer')
                     <!-- / Footer -->
 
                     <div class="content-backdrop fade"></div>
@@ -164,5 +172,10 @@
     <script src="../../assets_admin/js/pages-profile.js"></script>
     <script src="../../assets_admin/js/pages-account-settings-account.js"></script>
 
+    <script src="../../assets_admin/js/app-user-list.js"></script>
+    <script src="../../assets_admin/js/ui-modals.js"></script>
+
+
 </body>
+
 </html>

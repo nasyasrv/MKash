@@ -11,11 +11,11 @@ Route::get('/', function () {
 });
 
 // Sales
-Route::get('/sales', [SalesController::class, 'index'])->name('sales');
+Route::get('/desktop', [SalesController::class, 'index'])->name('desktop');
 Route::get('/product', [SalesController::class, 'product'])->name('sales.product');
 Route::get('/sale', [SalesController::class, 'sale'])->name('sales.sale');
 Route::get('/preview', [SalesController::class, 'preview'])->name('sales.preview');
-Route::get('/print/{id}', [SalesController::class, 'print'])->name('sales.print');
+Route::get('/print', [SalesController::class, 'print'])->name('sales.print');
 Route::get('/profile', [SalesController::class, 'profile'])->name('sales.profile');
 Route::get('/calendar', [SalesController::class, 'calendar'])->name('sales.calendar');
 

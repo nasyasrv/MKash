@@ -259,7 +259,7 @@
                 fontSize: '15px',
                 fontFamily: 'Public Sans',
                 color: legendColor,
-                label: 'AVG. Exceptions',
+                label: 'Presensi',
                 formatter: function (w) {
                   return '30%';
                 }

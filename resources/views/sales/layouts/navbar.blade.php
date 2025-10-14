@@ -444,7 +444,7 @@
                             </a>
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li>
-                                    <a class="dropdown-item mt-0" href="pages-account-settings-account.html">
+                                    <div class="dropdown-item mt-0">
                                         <div class="d-flex align-items-center">
                                             <div class="flex-shrink-0 me-2">
                                                 <div class="avatar avatar-online">
@@ -457,7 +457,7 @@
                                                 <small class="text-muted">Admin</small>
                                             </div>
                                         </div>
-                                    </a>
+                                    </div>
                                 </li>
                                 <li>
                                     <div class="dropdown-divider my-1 mx-n2"></div>

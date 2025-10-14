@@ -79,7 +79,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="col-lg-2 col-md-4 col-sm-6" style="margin-left: 350px;">
               <h6 class="footer-title mb-6">Pages</h6>
               <ul class="list-unstyled">
                 <li class="mb-4">
@@ -103,7 +103,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col-lg-3 col-md-4">
+            {{-- <div class="col-lg-3 col-md-4">
               <h6 class="footer-title mb-6">Download our app</h6>
               <a href="javascript:void(0);" class="d-block mb-4"
                 ><img src="{{ asset('assets_admin/img/front-pages/landing-page/apple-icon.png')}}" alt="apple icon"
@@ -111,7 +111,7 @@
               <a href="javascript:void(0);" class="d-block"
                 ><img src="{{ asset('assets_admin/img/front-pages/landing-page/google-play-icon.png')}}" alt="google play icon"
               /></a>
-            </div>
+            </div> --}}
           </div>
         </div>
       </div>
