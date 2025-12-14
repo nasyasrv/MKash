@@ -47,6 +47,7 @@
                         Produk
                     </a>
                 </li>
+                
                 <li class="menu-item">
                     <a href="/admin/penjualan" class="menu-link">
                         <i class="menu-icon tf-icons ti ti-currency-dollar"></i>

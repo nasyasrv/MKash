@@ -21,377 +21,306 @@
         </div>
 
         <div class="row mb-12 g-6">
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
+            <div class="col-xxl-4 col-md-6 mb-4">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
+                        <div class="bg-label-primary rounded text-center mb-4 pt-4 shimmer-hover">
+                            <img class="img-fluid" src="../../assets_admin/img/illustrations/girl-with-laptop.png"
+                                alt="Card girl image" width="140" />
+                        </div>
+                        <h5 class="mb-2">Nama Produk</h5>
+                        <div class="row mb-4 g-3">
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-brand-unsplash ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Stok</h6>
+                                        <small>23</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-businessplan ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Harga</h6>
+                                        <small>Rp.20.000</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
+            <div class="col-xxl-4 col-md-6 mb-4">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
+                        <div class="bg-label-primary rounded text-center mb-4 pt-4 shimmer-hover">
+                            <img class="img-fluid" src="../../assets_admin/img/illustrations/girl-with-laptop.png"
+                                alt="Card girl image" width="140" />
+                        </div>
+                        <h5 class="mb-2">Nama Produk</h5>
+                        <div class="row mb-4 g-3">
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-brand-unsplash ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Stok</h6>
+                                        <small>23</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-businessplan ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Harga</h6>
+                                        <small>Rp.20.000</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
+            <div class="col-xxl-4 col-md-6 mb-4">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
+                        <div class="bg-label-primary rounded text-center mb-4 pt-4 shimmer-hover">
+                            <img class="img-fluid" src="../../assets_admin/img/illustrations/girl-with-laptop.png"
+                                alt="Card girl image" width="140" />
+                        </div>
+                        <h5 class="mb-2">Nama Produk</h5>
+                        <div class="row mb-4 g-3">
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-brand-unsplash ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Stok</h6>
+                                        <small>23</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-businessplan ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Harga</h6>
+                                        <small>Rp.20.000</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
+            <div class="col-xxl-4 col-md-6 mb-4">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
+                        <div class="bg-label-primary rounded text-center mb-4 pt-4 shimmer-hover">
+                            <img class="img-fluid" src="../../assets_admin/img/illustrations/girl-with-laptop.png"
+                                alt="Card girl image" width="140" />
+                        </div>
+                        <h5 class="mb-2">Nama Produk</h5>
+                        <div class="row mb-4 g-3">
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-brand-unsplash ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Stok</h6>
+                                        <small>23</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-businessplan ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Harga</h6>
+                                        <small>Rp.20.000</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row mb-12 g-6">
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
+            <div class="row mb-12 g-6">
+            <div class="col-xxl-4 col-md-6 mb-4">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
+                        <div class="bg-label-primary rounded text-center mb-4 pt-4 shimmer-hover">
+                            <img class="img-fluid" src="../../assets_admin/img/illustrations/girl-with-laptop.png"
+                                alt="Card girl image" width="140" />
+                        </div>
+                        <h5 class="mb-2">Nama Produk</h5>
+                        <div class="row mb-4 g-3">
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-brand-unsplash ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Stok</h6>
+                                        <small>23</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-businessplan ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Harga</h6>
+                                        <small>Rp.20.000</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
+            <div class="col-xxl-4 col-md-6 mb-4">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
+                        <div class="bg-label-primary rounded text-center mb-4 pt-4 shimmer-hover">
+                            <img class="img-fluid" src="../../assets_admin/img/illustrations/girl-with-laptop.png"
+                                alt="Card girl image" width="140" />
+                        </div>
+                        <h5 class="mb-2">Nama Produk</h5>
+                        <div class="row mb-4 g-3">
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-brand-unsplash ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Stok</h6>
+                                        <small>23</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-businessplan ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Harga</h6>
+                                        <small>Rp.20.000</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
+            <div class="col-xxl-4 col-md-6 mb-4">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
+                        <div class="bg-label-primary rounded text-center mb-4 pt-4 shimmer-hover">
+                            <img class="img-fluid" src="../../assets_admin/img/illustrations/girl-with-laptop.png"
+                                alt="Card girl image" width="140" />
+                        </div>
+                        <h5 class="mb-2">Nama Produk</h5>
+                        <div class="row mb-4 g-3">
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-brand-unsplash ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Stok</h6>
+                                        <small>23</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-businessplan ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Harga</h6>
+                                        <small>Rp.20.000</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
+            <div class="col-xxl-4 col-md-6 mb-4">
+                <div class="card h-100">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-12 g-6">
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-12 g-6">
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row mb-12 g-6">
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
+                        <div class="bg-label-primary rounded text-center mb-4 pt-4 shimmer-hover">
+                            <img class="img-fluid" src="../../assets_admin/img/illustrations/girl-with-laptop.png"
+                                alt="Card girl image" width="140" />
+                        </div>
+                        <h5 class="mb-2">Nama Produk</h5>
+                        <div class="row mb-4 g-3">
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-brand-unsplash ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Stok</h6>
+                                        <small>23</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex">
+                                    <div class="avatar flex-shrink-0 me-3">
+                                        <span class="avatar-initial rounded bg-label-primary"><i
+                                                class="ti ti-businessplan ti-28px"></i></span>
+                                    </div>
+                                    <div>
+                                        <h6 class="mb-0 text-nowrap">Harga</h6>
+                                        <small>Rp.20.000</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row mb-12 g-6">
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-xl-3">
-                <div class="card">
-                    <img class="card-img-top" src="{{ asset('assets_admin/img/elements/13.jpg') }}" alt="Card image cap" />
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                            Stok: <br>
-                            Harga: <br>
-                        </p>
-                        <p class="card-text">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </p>
-                    </div>
-                </div>
-            </div>
         </div>
+
     </div>
 @endsection
 
